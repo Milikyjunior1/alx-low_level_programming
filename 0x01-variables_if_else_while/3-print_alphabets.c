@@ -12,4 +12,5 @@ int main(void)
 	for (high = 'A'; high <= 'Z'; high++)
 		putchar(high);
 	putchar('\n');
+	return (0);
 }
