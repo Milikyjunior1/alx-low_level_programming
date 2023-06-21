@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *main - Entry block
- *Return: Always 0 (succuss)
+ *Return: Always 0 (success)
  */
-void print_alphabet(void)
+int main(void)
 {
 	char c[10] = "_putchar\n";
 	int i = 0;
@@ -13,4 +14,5 @@ void print_alphabet(void)
 		_putchar(c[i]);
 		i++;
 	}
+	return (0);
 }
