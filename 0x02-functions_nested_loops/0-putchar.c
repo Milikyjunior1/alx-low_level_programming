@@ -3,7 +3,7 @@
  *main - Entry block
  *Return: Always 0 (succuss)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c[10] = "_putchar\n";
 	int i = 0;
