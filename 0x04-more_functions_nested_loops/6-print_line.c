@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * print_line - function for printing lines
- * @n: character to be printed to
- * Return: Always 0 (success)
+ * print_line - for printing line
+ * @n: number of line to be printed
+ * Return:Always 0 (success)
  */
 void print_line(int n)
 {
 	int len;
 
-	if (n >  0)
+	if (n > 0)
 	{
 		for (len = 0; len < n; len++)
-		{
 			_putchar('_');
-		}
 	}
-	putchar('\n');
+	_putchar('\n');
 }
