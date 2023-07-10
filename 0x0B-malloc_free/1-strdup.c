@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
+
 /**
- * _strdup - fir creating duplicate
- * @str: the duplicate pointer
- * Return: Always 0
+ * _strdup - Entry point
+ *@str: string we need to duplicate
+ * Return: a pointer to the duplicated string or NULL
  */
 char *_strdup(char *str)
 {
