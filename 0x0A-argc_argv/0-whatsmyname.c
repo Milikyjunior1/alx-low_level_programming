@@ -1,27 +1,16 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
- * create_array - create an array of chars, and initialize with specific char
- * @size: size of array
- * @c: specific char
- * Return: char pointer to malloc created memory address or NULL if error
+ * main - Prints the name of the program
+ * @argc: Number of command line arguments
+ * @argv: Array name
+ * Return: 0
  */
 
-char *create_array(unsigned int size, char c)
+int main(int argc, char *argv[])
 {
-	char *a;
-	unsigned int i;
+	printf("%s\n", argv[argc * 0]);
 
-	if (size == 0)
-		return (NULL);
-
-	a = malloc(size * sizeof(*a));
-	if (a == NULL)
-		return (NULL);
-
-	for (i = 0; i < size; i++)
-		a[i] = c;
-
-	return (a);
+	return (0);
 }
