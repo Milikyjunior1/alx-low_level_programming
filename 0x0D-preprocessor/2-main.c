@@ -1,14 +1,11 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - Entry block
  * argc: for printing the code
  * argv: the array
  * Return: Always 0
  */
-int main(int argc,char argv[])
+int  main(void)
 {
-	char a;
-	a = argv[argc * 0];
-	_putchar(a);
-
+	printf("%s\n", __FILE__);
 }
