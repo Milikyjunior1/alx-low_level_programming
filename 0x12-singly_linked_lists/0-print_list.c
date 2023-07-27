@@ -19,11 +19,5 @@ size_t print_list(const list_t *h)
 		}
 		i++;
 	}
-	if (i)
-	{
-		return (i);
-	}
-	else
-		return (0);
+	return (i);
 }
-
