@@ -10,9 +10,9 @@ size_t printlistint(const listint_t *h)
 
 	while (h)
 	{
-		p++;
 		printf("%d\n", h->n);
 		h = h->next;
+		p++;
 	}
 	return (p);
 }
