@@ -2,7 +2,7 @@
 /**
  * printlistint - for printing link list
  * @h: the index of node
- * Return: Alwayd 0
+ * Return: Always 0
  */
 size_t printlistint(const listint_t *h)
 {
