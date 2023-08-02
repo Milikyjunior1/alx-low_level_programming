@@ -11,8 +11,11 @@ listint_t *add_nodeint(listint_t **head, const int n)
 
 	if (sp_ew == NULL)
 		return (NULL);
-	sp_ew->n = n;
-	sp_ew->next = *head;
-	*head = sp_ew;
-	return (sp_ew);
+	while (sp_ew != NULL)
+	{
+		sp_ew->n = n;
+		sp_ew->next = *head;
+		*head = sp_ew;
+		return (sp_ew);
+	}
 }
