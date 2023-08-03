@@ -1,5 +1,23 @@
 #include "main.h"
 /**
+ * power - for getting pow
+ * @a: the number
+ * @b: the pow
+ * Return: Always 0
+ */
+int power(int a, int b)
+{
+	int h, c;
+
+	if (b == 0)
+		return (0);
+	for (h = 0; h < b; h++)
+	{
+		c *= a;
+	}
+	return (c);
+}
+/**
  * binary_to_uint - for converting to unsigned int
  * @b: yhe srring of charcters
  * Return: Akways 0
