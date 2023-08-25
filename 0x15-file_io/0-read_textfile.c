@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * read_textfile - for reading to posix
- * @filename: name of the file 
+ * @filename: name of the file
  * @letters: number of character to be read
  * Return: letter if success or 0 if failure
  */
