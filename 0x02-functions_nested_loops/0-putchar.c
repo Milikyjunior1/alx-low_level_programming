@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	char c[10] = "_putchar\n";
 	int i = 0;
+	char c[10] = "_putchar\n";
 
 	while (c[i])
 	{
