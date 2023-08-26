@@ -1,5 +1,6 @@
 #ifndef MAIN_H_
 #define MAIN_H_
+#include <stdio.h>
 /**
  *main - Entry block
  *Return: Always 0 (success)
