@@ -1,27 +1,26 @@
 #include "main.h"
 /**
- * _isalpha - for checking for alphabet
- * @c: the alpha to be check
- * Return: 1 err 0
+ * _isalpha - for checking alphabet character
+ * @c: The argument to be checked
+ *
+ * Return: isletter value
  */
 int _isalpha(int c)
 {
-	char b, d;
+	char lowercase, uppercase;
+	int isletter = 0;
 
-	for (b = 'a'; b <= 'z'; b++)
+	lowercase = 'a';
+	while (lowercase <= 'z')
 	{
-		if (c == b)
+		uppercase = 'A';
+		while (uppercase <= 'Z')
 		{
-			return (1);
+			if (c == lowercase || c == uppercase)
+				isletter = 1;
+			uppercase++;
 		}
-		else
-			return (0);
+		lowercase++;
 	}
-	for (d = 'A'; d <= 'Z'; d++)
-	{
-		if (d == c)
-			return (1);
-		else
-			return (0);
-	}
+	return (isletter);
 }
