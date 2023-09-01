@@ -5,9 +5,9 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int *p, current;
+	unsigned int p, current;
 
-	*p = 0;
+	p = 0;
 	while (n)
 	{
 		if (n == 0)
@@ -21,13 +21,13 @@ void print_binary(unsigned long int n)
 				current = n >> 1;
 				if (n >> 1 == current << 1)
 				{
-					*p = *p * 10 + 0;
+					p = p * 10 + 0;
 				}
 				if (n >> 1 > current << 1)
 				{
-					*p = *p * 10 + 1;
+					p = p * 10 + 1;
 				}
-				_putchar(*p);
+				_putchar(p);
 			}
 			_putchar('\n');
 		}
