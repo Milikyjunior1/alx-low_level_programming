@@ -5,7 +5,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int* p, current;
+	unsigned int *p, current;
 
 	*p = 0;
 	while (n)
