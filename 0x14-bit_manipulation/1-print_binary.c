@@ -27,7 +27,7 @@ void print_binary(unsigned long int n)
 				{
 					p = p * 10 + 1;
 				}
-				_puchar(p);
+				_putchar(p);
 			}
 			_putchar('\n');
 		}
