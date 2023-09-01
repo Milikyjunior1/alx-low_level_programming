@@ -11,6 +11,7 @@ unsigned int binary_to_uint(const char *b)
 	conv = 0;
 	var_pow = 2;
 	char value_is_1;
+	b = NULL;
 
 	while (b)
 	{
@@ -18,7 +19,6 @@ unsigned int binary_to_uint(const char *b)
 		{
 			if (*(b + index) == '0' || *(b + index) == '1')
 			{
-				b = malloc(sizeof(unsigned int));
 				if (*(b + 0) == '0' && index < 1)
 					return (1);
 				value_is_1 = *(b + index);
