@@ -11,6 +11,7 @@ unsigned int binary_to_uint(const char *b)
 	conv = 0;
 	var_pow = 2;
 	char value_is_1;
+
 	b = NULL;
 
 	while (b)
