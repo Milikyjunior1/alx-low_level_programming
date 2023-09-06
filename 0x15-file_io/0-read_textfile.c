@@ -19,20 +19,20 @@ ssize_t read_textfile(const char *filename, size_t letters)
 			return (0);
 		}
 		buffer = (char *) malloc(sizeof(char *) * letters);
-		if(buffer == NULL)
+		if (buffer == NULL)
 		{
-			close (fd);
+			close(fd);
 			return (0);
 		}
 		nread = read(fd, buffer, letters);
-		close (fd);
+		close(fd);
 		if (nread == -1)
 		{
 			free(buffer);
 			return (0);
 		}
 		nwrite = write(STDOUT_FILENO, buffer, nread);
-		free (buffer);
+		free(buffer);
 		if (nread != nwrite)
 		{
 			return (0);
