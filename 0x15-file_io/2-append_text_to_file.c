@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * append_test_to_file - for appending test to file
+ * append_text_to_file - for appending test to file
  * @filename: the name of file
- * @test_content: the content to append to the file
+ * @text_content: the content to append to the file
  * Return: 0
  *
  */
