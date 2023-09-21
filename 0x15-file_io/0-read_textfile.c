@@ -3,7 +3,7 @@
  * read_textfile - for reading to standard output
  * @filename: the file to read from
  * @letters: the numbers of character to be read
- * Return: 0 on error and letters on succes
+ * Return: 0 on error and letters on success
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
